@@ -1,7 +1,10 @@
 ## Project's CodeBook
 
 ### Data 
-The data contains the average value of averages and standard deviations of the following features obtained in the experience (from accelerometer and gyroscope).
+The data contains the average value of averages and standard deviations of the following features obtained from accelerometer and gyroscope in the experiment.
+The average is aggregate by the activity and the 30 subjects (the volunteers).
+
+#### The Features
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
 * tBodyAccJerk-XYZ
@@ -20,9 +23,7 @@ The data contains the average value of averages and standard deviations of the f
 * fBodyGyroMag
 * fBodyGyroJerkMag
 
-The average is aggregate by the activity and the 30 subjects (the volunteers).
-
-The activities:
+#### The Activities
 * WALKING
 * WALKING_UPSTAIRS
 * WALKING_DOWNSTAIRS
@@ -30,6 +31,6 @@ The activities:
 * STANDING
 * LAYING
 
-### Units
+#### Units
 * Accelerometer - standard gravity units 'g'
 * Gyroscope - radians/second
